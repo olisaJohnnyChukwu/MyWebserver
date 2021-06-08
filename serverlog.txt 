@@ -1,0 +1,7 @@
+directory can be explored using the following
+for root http://localhost:2540
+for sub-a http://localhost:2540/sub-a/
+for sub-b http://localhost:2540/sub-a/sub-b/
+for cat.html or dog in directory
+http://localhost:2540/sub-a/sub-b/dog.txt
+http://localhost:2540/sub-a/sub-b/cat.html

@@ -1,0 +1,81 @@
+GET /dog.txt HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11.2; rv:86.0) Gecko/20100101 Firefox/86.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+GET /cat.hml HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11.2; rv:86.0) Gecko/20100101 Firefox/86.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+GET /sub-a/ HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11.2; rv:86.0) Gecko/20100101 Firefox/86.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+
+
+Olisa's MyTelnet Client, 1.0.
+
+Using server: condor.depaul.edu, Port: 80
+Enter text to send to the server, <stop> to end: GET /elliott/dog.txt HTTP/1.1
+Enter text to send to the server, <stop> to end: Host: condor.depaul.edu:80
+Enter text to send to the server, <stop> to end: 
+Enter text to send to the server, <stop> to end: 
+Enter text to send to the server, <stop> to end: stop
+HTTP/1.1 400 Bad Request
+Date: Fri, 05 Mar 2021 00:43:55 GMT
+Server: Apache
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+ojc@Olisas-Air-2 MyWebServer % 
+
+Olisa's MyTelnet Client, 1.0.
+
+Using server: condor.depaul.edu, Port: 80
+Enter text to send to the server, <stop> to end: GET /elliott/cat.html HTTP/1.1
+Enter text to send to the server, <stop> to end: Host: condor.depaul.edu:80
+Enter text to send to the server, <stop> to end: 
+Enter text to send to the server, <stop> to end: 
+Enter text to send to the server, <stop> to end: stop
+HTTP/1.1 400 Bad Request
+Date: Fri, 05 Mar 2021 00:46:47 GMT
+Server: Apache
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+ojc@Olisas-Air-2 MyWebServer % 
